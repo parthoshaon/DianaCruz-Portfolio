@@ -691,11 +691,11 @@ button{cursor: pointer;}
   color: var(--text-black-900);
 }
 .skills__tabs{
-  min-width: 23rem;
+  min-width: 22.5rem;
 }
 
 .skills__content{
-  min-width: 22rem;
+  min-width: 21.3rem;
 }
 .skill__header{
   display: flex;
@@ -736,7 +736,6 @@ button{cursor: pointer;}
   display: block;
 }
 .skills__group{
-  width: 30rem;
   max-width: 30rem;
   height: 15rem;
 }
@@ -745,8 +744,6 @@ button{cursor: pointer;}
   flex-flow: row wrap;
   justify-content: space-evenly;
   gap: 1rem;
-  transition: opacity .5s ease-in-out;
-  min-width: 100%;
 }
 .skill__item{
   display: flex;
@@ -834,7 +831,7 @@ button{cursor: pointer;}
   color: var(--text-black-700);
 }
 .timeline__date-i{
-  margin-right: 8px;
+  margin-right: 15px;
 }
 .timeline__title{
   font-weight: 700;
@@ -1062,7 +1059,7 @@ button{cursor: pointer;}
 
 /*=======About - Testimonials======== */
 .testimonials__container{
-  max-width: 750px;
+  max-width: 47rem;
   margin: 0 auto;
   color: var(--text-black-900);
   padding: .5rem;
@@ -1074,7 +1071,7 @@ button{cursor: pointer;}
   border-radius: .5rem;
   margin-bottom: 3rem;
   box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .4);
-  min-height: 400px;
+  min-height: 25rem;
 }
 
 .testimonial__quote{
@@ -1094,7 +1091,7 @@ button{cursor: pointer;}
   margin-bottom: 2rem;
   color: var(--text-black-700);
   position: absolute;
-  bottom: 4.5rem;
+  bottom: 4rem;
 }
 
 .testimonial__profile{
@@ -1151,11 +1148,6 @@ button{cursor: pointer;}
   flex-wrap: wrap;
   color: var(--text-black-900);
 }
-.work__card{
-  flex: 0 0 32.33% ;
-  max-width: 32.33% ;
-  margin: 0.5%;
-}
 .work__filters{
   display: flex;
   justify-content: center;
@@ -1173,12 +1165,18 @@ button{cursor: pointer;}
   box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, .2);
 }
 .work__card{
+  flex: 0 0 32.33% ;
+  max-width: 32.33% ;
+  margin: 0.5%;
   background-color: var(--bg-black-100);
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .portfolio__item-details{
   display: none;
@@ -1460,6 +1458,7 @@ button{cursor: pointer;}
   .details__description{font-size: .95rem; margin-bottom: .8rem;}
 
   .details__info li {margin-bottom: 0.30rem; font-size: .95rem;}
+  .testimonial__card{min-height: 22rem;}
 }
 
 @media (max-width:700px){

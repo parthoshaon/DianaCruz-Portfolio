@@ -7,14 +7,14 @@
     "contact":"<i class='nav__i fa fa-comments'></i>Contact"
   },
   "home":{
-    "hello-text":"Hello!, my name is <span class='name'>Diana Cruz</span>",
+    "hello-text":"Hello!, my name is  <span class='home__name'>Diana Cruz</span>",
     "my-profession":"I'm ",
     "profession-description":"I am a frontend developer passionate about technology 😍. I have experience creating and designing responsive websites.",
     "btn-homeToWorks":"Last works"
   },
   "about":{
     "title-about":"About me",
-    "title-text":"I'm Diana,<span> Desarrolladora Web</span> 👋",
+    "title-text":"I'm Diana, <span class='text__span'>Web Developer</span>👋",
     "text-about":"Since 2020 I have experience in the area of web development. I also collaborate on projects such as Freelance FullStack. I'm more focused on the Frontend, but I also do backend. I enjoy carrying out the layout and interactivity of web interfaces, as well as optimization, for good positioning and loading performance of web sites and applications. I also have experience in the area of Social Media, Content Marketing and SEO.",
     "skills":"Skills",
     "skill-title1":"Frontend Developer",
