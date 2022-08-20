@@ -201,7 +201,7 @@ button{cursor: pointer;}
   width: 200px;
   border: 1px solid var(--bg-black-50);
   background: var(--bg-black-100);
-  z-index: 101;
+  z-index: 2;
   border-radius: 5px;
   transition: all 0.3s ease;
   transform: translateX(100%);
@@ -632,7 +632,6 @@ button{cursor: pointer;}
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 .about__img{
   text-align: center;
   position:relative;
@@ -642,7 +641,6 @@ button{cursor: pointer;}
   align-items: center;
   display: none;
 }
-
 .about__text{
   flex:0 0 100%;
   max-width: 100%;
@@ -668,8 +666,6 @@ button{cursor: pointer;}
   line-height: 25px;
   color: var(--text-black-700);
 }
-
-
 
 /*======About-Skills===== */
 .skills{
@@ -1507,8 +1503,20 @@ button{cursor: pointer;}
   .skills__group{max-width: 100%;height: auto;}
 }
 
-@media screen and (max-screen:375px) {
+@media screen and (max-width:370px) {
   .services__content{
     padding: 1.5rem;
+  }
+  .services__icon{
+    margin-bottom: 0;
+  }
+  .services__button{
+    bottom: 1em;
+  }
+  .services__title{
+    font-size: 1.3em;
+  }
+  .aside__toggler.open {
+    left: 246px;
   }
 }
